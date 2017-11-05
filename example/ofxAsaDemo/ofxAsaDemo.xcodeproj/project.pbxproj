@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		240680577164E012C35609DC /* stb_truetype.c in Sources */ = {isa = PBXBuildFile; fileRef = 548D2674253E10EDBE3D8D03 /* stb_truetype.c */; };
+		286773D694DB0A94645C176B /* ofxFontStash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9B4E64618E878BF54262707 /* ofxFontStash.cpp */; };
+		5888948D0A79B9CBFA717F94 /* ofxJSONElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E32586C512FAD13F68322DF7 /* ofxJSONElement.cpp */; };
+		7104A226686C46278243F111 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D54B7F3EE852C008A224999A /* jsoncpp.cpp */; };
+		BE4B74501E07298D002D8490 /* ofxAsaAnimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B743C1E07298D002D8490 /* ofxAsaAnimator.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74511E07298D002D8490 /* ofxAsaApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B743E1E07298D002D8490 /* ofxAsaApp.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74521E07298D002D8490 /* ofxAsaConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B74401E07298D002D8490 /* ofxAsaConfig.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74531E07298D002D8490 /* ofxAsaImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B74421E07298D002D8490 /* ofxAsaImage.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74541E07298D002D8490 /* ofxAsaObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B74441E07298D002D8490 /* ofxAsaObject.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74551E07298D002D8490 /* ofxAsaPrimitive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B74461E07298D002D8490 /* ofxAsaPrimitive.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74561E07298D002D8490 /* ofxAsaScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B74481E07298D002D8490 /* ofxAsaScene.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74571E07298D002D8490 /* ofxAsaType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B744A1E07298D002D8490 /* ofxAsaType.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74581E07298D002D8490 /* ofxAsaTypeLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B744C1E07298D002D8490 /* ofxAsaTypeLibrary.cpp */; settings = {ASSET_TAGS = (); }; };
+		BE4B74591E07298D002D8490 /* ofxAsaUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE4B744E1E07298D002D8490 /* ofxAsaUtilities.cpp */; settings = {ASSET_TAGS = (); }; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		F7B04CD0FEBCA2F14749A470 /* fontstash.c in Sources */ = {isa = PBXBuildFile; fileRef = F8C71776EBE94BF3B19DF9E8 /* fontstash.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4145F37AD68EA528554D991B /* ofxFontStash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxFontStash.h; path = ../../../../../openFrameworks/addons/ofxFontStash/src/ofxFontStash.h; sourceTree = SOURCE_ROOT; };
+		4AFE5A48C08526FB2F5FF9CF /* ofxJSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxJSON.h; path = "../../../../../openFrameworks/addons/ofxJSON-master/src/ofxJSON.h"; sourceTree = SOURCE_ROOT; };
+		548D2674253E10EDBE3D8D03 /* stb_truetype.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = stb_truetype.c; path = ../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src/stb_truetype.c; sourceTree = SOURCE_ROOT; };
+		6131DAF5B0527C98A1DD10F9 /* json.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json.h; path = "../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json/json.h"; sourceTree = SOURCE_ROOT; };
+		628C5630C26452C74D5F6082 /* ofxJSONElement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxJSONElement.h; path = "../../../../../openFrameworks/addons/ofxJSON-master/src/ofxJSONElement.h"; sourceTree = SOURCE_ROOT; };
+		6C72C38AA7F4C19705A79955 /* fontstash.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fontstash.h; path = ../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src/fontstash.h; sourceTree = SOURCE_ROOT; };
+		70AB2238CC67D07193513484 /* stb_truetype.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stb_truetype.h; path = ../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src/stb_truetype.h; sourceTree = SOURCE_ROOT; };
+		BE4B743C1E07298D002D8490 /* ofxAsaAnimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaAnimator.cpp; sourceTree = "<group>"; };
+		BE4B743D1E07298D002D8490 /* ofxAsaAnimator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaAnimator.hpp; sourceTree = "<group>"; };
+		BE4B743E1E07298D002D8490 /* ofxAsaApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaApp.cpp; sourceTree = "<group>"; };
+		BE4B743F1E07298D002D8490 /* ofxAsaApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxAsaApp.h; sourceTree = "<group>"; };
+		BE4B74401E07298D002D8490 /* ofxAsaConfig.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaConfig.cpp; sourceTree = "<group>"; };
+		BE4B74411E07298D002D8490 /* ofxAsaConfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaConfig.hpp; sourceTree = "<group>"; };
+		BE4B74421E07298D002D8490 /* ofxAsaImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaImage.cpp; sourceTree = "<group>"; };
+		BE4B74431E07298D002D8490 /* ofxAsaImage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaImage.hpp; sourceTree = "<group>"; };
+		BE4B74441E07298D002D8490 /* ofxAsaObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaObject.cpp; sourceTree = "<group>"; };
+		BE4B74451E07298D002D8490 /* ofxAsaObject.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaObject.hpp; sourceTree = "<group>"; };
+		BE4B74461E07298D002D8490 /* ofxAsaPrimitive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaPrimitive.cpp; sourceTree = "<group>"; };
+		BE4B74471E07298D002D8490 /* ofxAsaPrimitive.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaPrimitive.hpp; sourceTree = "<group>"; };
+		BE4B74481E07298D002D8490 /* ofxAsaScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaScene.cpp; sourceTree = "<group>"; };
+		BE4B74491E07298D002D8490 /* ofxAsaScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaScene.hpp; sourceTree = "<group>"; };
+		BE4B744A1E07298D002D8490 /* ofxAsaType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaType.cpp; sourceTree = "<group>"; };
+		BE4B744B1E07298D002D8490 /* ofxAsaType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaType.hpp; sourceTree = "<group>"; };
+		BE4B744C1E07298D002D8490 /* ofxAsaTypeLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaTypeLibrary.cpp; sourceTree = "<group>"; };
+		BE4B744D1E07298D002D8490 /* ofxAsaTypeLibrary.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaTypeLibrary.hpp; sourceTree = "<group>"; };
+		BE4B744E1E07298D002D8490 /* ofxAsaUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxAsaUtilities.cpp; sourceTree = "<group>"; };
+		BE4B744F1E07298D002D8490 /* ofxAsaUtilities.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxAsaUtilities.hpp; sourceTree = "<group>"; };
+		C9B4E64618E878BF54262707 /* ofxFontStash.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxFontStash.cpp; path = ../../../../../openFrameworks/addons/ofxFontStash/src/ofxFontStash.cpp; sourceTree = SOURCE_ROOT; };
+		D54B7F3EE852C008A224999A /* jsoncpp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jsoncpp.cpp; path = "../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/src/jsoncpp.cpp"; sourceTree = SOURCE_ROOT; };
+		E32586C512FAD13F68322DF7 /* ofxJSONElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxJSONElement.cpp; path = "../../../../../openFrameworks/addons/ofxJSON-master/src/ofxJSONElement.cpp"; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../../../openFrameworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* ofxAsaDemoDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxAsaDemoDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../../openFrameworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		F8C5D9E495F535893DD9B7F8 /* json-forwards.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "json-forwards.h"; path = "../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json/json-forwards.h"; sourceTree = SOURCE_ROOT; };
+		F8C71776EBE94BF3B19DF9E8 /* fontstash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = fontstash.c; path = ../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src/fontstash.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AED2E539191CC459046DA1F /* ofxJSON-master */ = {
+			isa = PBXGroup;
+			children = (
+				B96D58DDEFAB5172E2C1463A /* src */,
+				E20470A9AC5F94F56385903E /* libs */,
+			);
+			name = "ofxJSON-master";
+			sourceTree = "<group>";
+		};
+		4C084EBF7CBFDB1868AFF470 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F8C71776EBE94BF3B19DF9E8 /* fontstash.c */,
+				6C72C38AA7F4C19705A79955 /* fontstash.h */,
+				548D2674253E10EDBE3D8D03 /* stb_truetype.c */,
+				70AB2238CC67D07193513484 /* stb_truetype.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		53F7F507CA00954C9A160F81 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				CD00D7CBC625BAE13B3B9FC1 /* json */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		787C5E98195D5F7A798BEDA5 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A721EFB518B2BFE659AAD339 /* fontstash */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		99815E652BF5A14E1BFB66A9 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D54B7F3EE852C008A224999A /* jsoncpp.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		A721EFB518B2BFE659AAD339 /* fontstash */ = {
+			isa = PBXGroup;
+			children = (
+				4C084EBF7CBFDB1868AFF470 /* src */,
+			);
+			name = fontstash;
+			sourceTree = "<group>";
+		};
+		B7006DB7785B098B4504962B /* ofxFontStash */ = {
+			isa = PBXGroup;
+			children = (
+				EE9FC485BA17E42108FEDBF5 /* src */,
+				787C5E98195D5F7A798BEDA5 /* libs */,
+			);
+			name = ofxFontStash;
+			sourceTree = "<group>";
+		};
+		B96D58DDEFAB5172E2C1463A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4AFE5A48C08526FB2F5FF9CF /* ofxJSON.h */,
+				E32586C512FAD13F68322DF7 /* ofxJSONElement.cpp */,
+				628C5630C26452C74D5F6082 /* ofxJSONElement.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B743A1E072973002D8490 /* ofxAsa */,
+				B7006DB7785B098B4504962B /* ofxFontStash */,
+				0AED2E539191CC459046DA1F /* ofxJSON-master */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		BE4B743A1E072973002D8490 /* ofxAsa */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B743B1E07298D002D8490 /* src */,
+			);
+			name = ofxAsa;
+			sourceTree = "<group>";
+		};
+		BE4B743B1E07298D002D8490 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B743C1E07298D002D8490 /* ofxAsaAnimator.cpp */,
+				BE4B743D1E07298D002D8490 /* ofxAsaAnimator.hpp */,
+				BE4B743E1E07298D002D8490 /* ofxAsaApp.cpp */,
+				BE4B743F1E07298D002D8490 /* ofxAsaApp.h */,
+				BE4B74401E07298D002D8490 /* ofxAsaConfig.cpp */,
+				BE4B74411E07298D002D8490 /* ofxAsaConfig.hpp */,
+				BE4B74421E07298D002D8490 /* ofxAsaImage.cpp */,
+				BE4B74431E07298D002D8490 /* ofxAsaImage.hpp */,
+				BE4B74441E07298D002D8490 /* ofxAsaObject.cpp */,
+				BE4B74451E07298D002D8490 /* ofxAsaObject.hpp */,
+				BE4B74461E07298D002D8490 /* ofxAsaPrimitive.cpp */,
+				BE4B74471E07298D002D8490 /* ofxAsaPrimitive.hpp */,
+				BE4B74481E07298D002D8490 /* ofxAsaScene.cpp */,
+				BE4B74491E07298D002D8490 /* ofxAsaScene.hpp */,
+				BE4B744A1E07298D002D8490 /* ofxAsaType.cpp */,
+				BE4B744B1E07298D002D8490 /* ofxAsaType.hpp */,
+				BE4B744C1E07298D002D8490 /* ofxAsaTypeLibrary.cpp */,
+				BE4B744D1E07298D002D8490 /* ofxAsaTypeLibrary.hpp */,
+				BE4B744E1E07298D002D8490 /* ofxAsaUtilities.cpp */,
+				BE4B744F1E07298D002D8490 /* ofxAsaUtilities.hpp */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = "<group>";
+		};
+		CD00D7CBC625BAE13B3B9FC1 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				F8C5D9E495F535893DD9B7F8 /* json-forwards.h */,
+				6131DAF5B0527C98A1DD10F9 /* json.h */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		DA82A5D442014936589B4869 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				53F7F507CA00954C9A160F81 /* include */,
+				99815E652BF5A14E1BFB66A9 /* src */,
+			);
+			name = jsoncpp;
+			sourceTree = "<group>";
+		};
+		E20470A9AC5F94F56385903E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				DA82A5D442014936589B4869 /* jsoncpp */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* ofxAsaDemoDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		EE9FC485BA17E42108FEDBF5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C9B4E64618E878BF54262707 /* ofxFontStash.cpp */,
+				4145F37AD68EA528554D991B /* ofxFontStash.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* ofxAsaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxAsaDemo" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				8466F1851C04CA0E00918B1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = ofxAsaDemo;
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* ofxAsaDemoDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxAsaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* ofxAsaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8466F1851C04CA0E00918B1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"$APPSTORE\" ] ; then\necho \"Note: Not copying bin/data to App Package or doing App Code signing. Use AppStore target for AppStore distribution\";\nelse\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n\n# ---- Code Sign App Package ----\n \n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n\nfi\n";
+		};
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../../../openFrameworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n\necho \"$GCC_PREPROCESSOR_DEFINITIONS\";\nAPPSTORE=`expr \"$GCC_PREPROCESSOR_DEFINITIONS\" : \".*APPSTORE=\\([0-9]*\\)\"`\nif [ -z \"${APPSTORE}\" ] ; then\necho \"Copying GLUT framework\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../../../openFrameworks/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\nelse\necho \"Not including GLUT\";\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4B74501E07298D002D8490 /* ofxAsaAnimator.cpp in Sources */,
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				286773D694DB0A94645C176B /* ofxFontStash.cpp in Sources */,
+				BE4B74571E07298D002D8490 /* ofxAsaType.cpp in Sources */,
+				BE4B74511E07298D002D8490 /* ofxAsaApp.cpp in Sources */,
+				F7B04CD0FEBCA2F14749A470 /* fontstash.c in Sources */,
+				240680577164E012C35609DC /* stb_truetype.c in Sources */,
+				BE4B74521E07298D002D8490 /* ofxAsaConfig.cpp in Sources */,
+				BE4B74561E07298D002D8490 /* ofxAsaScene.cpp in Sources */,
+				5888948D0A79B9CBFA717F94 /* ofxJSONElement.cpp in Sources */,
+				BE4B74551E07298D002D8490 /* ofxAsaPrimitive.cpp in Sources */,
+				7104A226686C46278243F111 /* jsoncpp.cpp in Sources */,
+				BE4B74541E07298D002D8490 /* ofxAsaObject.cpp in Sources */,
+				BE4B74531E07298D002D8490 /* ofxAsaImage.cpp in Sources */,
+				BE4B74591E07298D002D8490 /* ofxAsaUtilities.cpp in Sources */,
+				BE4B74581E07298D002D8490 /* ofxAsaTypeLibrary.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		99FA3DBB1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "DISTRIBUTION=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/src",
+					"../../../../../openFrameworks/addons/ofxJSON-master/src",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = AppStore;
+		};
+		99FA3DBC1C7456C400CFA0EE /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../openFrameworks/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "APPSTORE=1";
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/src",
+					"../../../../../openFrameworks/addons/ofxJSON-master/src",
+					../src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = AppStore;
+		};
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/src",
+					"../../../../../openFrameworks/addons/ofxJSON-master/src",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/src",
+					"../../../../../openFrameworks/addons/ofxJSON-master/src",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../openFrameworks/libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/src",
+					"../../../../../openFrameworks/addons/ofxJSON-master/src",
+					../src,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../openFrameworks/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/src,
+					../../../../../openFrameworks/addons/ofxFontStash/libs/fontstash/src,
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/include/json",
+					"../../../../../openFrameworks/addons/ofxJSON-master/libs/jsoncpp/src",
+					"../../../../../openFrameworks/addons/ofxJSON-master/src",
+					../src,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "ofxAsaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+				99FA3DBB1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "ofxAsaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+				99FA3DBC1C7456C400CFA0EE /* AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}

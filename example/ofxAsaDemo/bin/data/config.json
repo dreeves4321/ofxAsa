@@ -1,0 +1,48 @@
+{
+	"COMMENT: REQUIRED ITEMS" : "",	
+
+	"title" : "Climate Tunnel",
+	"subtitle" : "an exploration of historical periods and climate",
+	"colors" :[
+		{
+		"name" : "gold",
+		"values" : [0.9, 0.8, 0.6, 1]
+		},
+		{
+		"name" : "blue",
+		"values" : [0.73, 0.89, 0.82, 1]
+		},
+		{
+		"name" : "purple",
+		"values" : [0.58, 0.42, 0.66, 1]
+		}
+	],
+
+	
+
+	"COMMENT: SUBCLASS ITEMS" : "",
+	"epoch data file" : "epochs.json",
+
+	"event data file" : "events.json",
+
+	"scaler name" : "Global mean temperature deviation",
+	"scaler unit" : "F",
+	"scaler data file" : "smoothedCombinedTemps.json",
+	"hot value" : 1.0,
+	"cold value" : -1.0,
+	"hot color" : [1.0, 0, 0, 1.0],
+	"cold color" : [0, 0, 1.0 , 1.0],
+
+
+	"COMMENT: GRAPHICAL PARAMETERS" : "",
+	
+	"tunnel W" : 550,
+	"tunnel H" : 450,
+	"tunnel Z" : 2000,
+	"tunnel behind Z": 2000,
+	"dash W" : 440,
+	"dash H" : 110
+	
+	
+}
+	
